@@ -1,0 +1,465 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+@media only screen and (min-width:300px){
+	body{
+		background-color:white;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:280px;
+		height:250px;
+		tansition:0.5s;
+	}
+	#fluid{
+		background-image:url(../img/div1_bg_mobile.jpg);
+		height:851px;
+	}
+	.who h1{
+		margin-top:-25px;
+		font-size:110px;
+	}
+	.who h2{
+		font-size:40px;
+		margin-top:-70px;
+		line-height: 45px;
+	}
+	#arrow-cont{
+		margin-top:20px;
+	}
+	/*CSS for second Div*/
+	.second_desc_title{
+		font-size:30px;
+		padding-top:40px;
+	}
+	/*CSS for third Div*/
+	#third_desc p{
+		padding-top:40px;
+		padding-left:10px;
+		padding-right:10px;
+		font-size:20px;
+	}
+}
+@media only screen and (min-width:400px){
+	body{
+		background-color:white;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:280px;
+		height:250px;
+		tansition:0.5s;
+	}
+	#fluid{
+		background-image:url(../img/div1_bg_mobile.jpg);
+		height:823px;
+	}
+	.who h1{
+		margin-top:-25px;
+		font-size:125px;
+	}
+	.who h2{
+		font-size:50px;
+		margin-top:-75px;
+	}
+	#arrow-cont{
+		margin-top:20px;
+	}
+	/*CSS for second Div*/
+	.second_desc_title{
+		font-size:30px;
+		padding-top:40px;
+	}
+	/*CSS for third Div*/
+	#third_desc p{
+		padding-top:40px;
+		padding-left:10px;
+		padding-right:10px;
+		font-size:20px;
+	}
+}
+/* @media only screen and (min-width: 600px){
+	body{
+		background-color: hotpink;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:100px;
+		height:200px;
+		transition:0.5s;
+	}
+} */
+@media only screen and (min-width: 700px){
+	body{
+		background-color: white;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:270px;
+		height:250px;
+		transition:0.5s;
+	}
+	#fluid{
+		background-image:url(../img/div1_bg_mobile.jpg);
+		height:1024px;
+		padding-top:200px;
+	}
+	.who h1{
+		padding-top:200px;
+		padding-left:45px;
+		font-size:130px;
+	}
+	.who h2{
+		font-size:45px;
+		margin-top:-75px;
+		padding-left:45px;
+	}
+	/*CSS for second Div*/
+	.second_desc_title{
+		font-size:40px;
+		padding-top:40px;
+	}
+	/*CSS for third Div*/
+	#third_desc p{
+		padding-top:40px;
+		padding-left:50px;
+		padding-right:50px;
+		font-size:25px;
+	}
+}
+@media only screen and (min-width: 1024px){
+	body{
+		background-color: white;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:280px;
+		height:250px;
+		transition:0.5s;
+	}
+	#fluid{
+		background-image:url(../img/div1_bg_mobile.jpg);
+		height:1366px;
+		padding-top:350px;
+	}
+	.who h1{
+		padding-top:155px;
+		font-size:190px;
+	}
+	.who h2{
+		font-size:65px;
+		margin-top:-100px;
+		line-height: 65px;
+	}
+	/*CSS for second Div*/
+	.second_desc_title{
+		font-size:45px;
+		padding-top:40px;
+	}
+	/*CSS for third Div*/
+	#third_desc p{
+		padding-top:40px;
+		padding-left:50px;
+		padding-right:50px;
+		font-size:30px;
+	}
+}
+@media only screen and (min-width: 1400px){
+	body{
+		background-color:white;
+	}
+	.container .card .slide{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:300px;
+		height:250px;
+		transition:0.5s;
+	}
+	
+	#fluid_1{
+		height:864px;
+		padding-top:100px;
+	}
+	#fluid_2{
+	}
+	.who h1{
+		font-size:290px;
+		margin-top:-110px;
+		margin-right:60px;
+	}
+	.who h2{
+		font-size:100px;
+		margin-top:-150px;
+		margin-right:60px;
+		line-height: 85px;
+	}
+	/*CSS for second Div*/
+	.second_desc_title{
+		font-size:35px;
+	}
+}
+@supports (background: paint(something)) {
+  #name_h3 {
+    /* 
+      Optionally set property values. 
+      This can be done at root or local scope 
+    */
+    --extra-underlineNumber: 3; /* default: 3 */
+    --extra-underlineColor: #8266ff; /* default: black */
+    --extra-underlineSpread: 22; /* default: 20 */
+    --extra-underlineWidth: 0; /* default: 2 */
+
+    background: paint(extra-superUnderline);
+    line-height: 1.5;
+  }
+}
+body{
+	margin:0;
+	padding:0;
+	min-height:100vh;
+	align-items:center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+.container .card .icon{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+}
+.container .card .icon .fa{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	font-size:80px;
+}
+
+.container .card .slide.slide1{
+	position:relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	z-index:1;
+	transition:.7s;
+	transform:translateY(150px);
+}
+.container .card:hover .slide.slide1{
+	transform:translateY(0px);
+}
+.container .card .slide.slide2{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	padding:20px;
+	box-sizing:border-box;
+	transition:.8s;
+	transform:translateY(-100px);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+.container .card:hover .slide.slide2{
+	transform:translateY(0);
+}
+.container .card .slide.slide2 .content p{
+	margin:0;
+	padding: 0;
+	font-family: 'Staatliches', cursive;
+	text-align: left;
+	color:#414141;
+}
+.container .card .slide.slide2 .content h3{
+	margin:0 0 10px 0;
+	padding:0;
+	font-size: 24px;
+	text-align: center;
+	color:#414141;
+}
+.container .card .slide.slide2::after{
+	content:"";
+	position: absolute;
+	width:30px;
+	height:4px;
+	bottom:15px;
+	left:50%;
+	transform:translateX(-50%);
+	background:#2c73df;
+}
+#my_pic{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	border-radius:85px;
+	width:40%;
+}
+#card-con{
+	background:transparent;
+}
+.who h1{
+	font-family: 'Archivo Black', sans-serif;
+	text-shadow: 2px 2px 50px #000000;
+	text-align:center;
+	color: white;
+	opacity:10%;
+	z-index:1;
+}
+.who h2{
+	font-family: 'Staatliches', cursive;
+	text-align:center;
+	background: -webkit-linear-gradient(#373b44, #4286f4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	opacity:100%;
+	z-index:2;
+}
+.button {
+  	display: block;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:10px;
+  	height: 40px;
+  	width: 150px;
+  	border: 1px solid blue;
+	border-radius:50px;
+  	color: #BFC0C0;
+	text-align:center;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	font-size: .8em;
+  	letter-spacing: 1.5px;
+  	align-items: center;
+  	justify-content: center;
+  	overflow: hidden;
+	
+}
+#button-5 {
+  	position: relative;
+  	overflow: hidden;
+  	cursor: pointer;
+}
+
+#button-5 a {
+  	position: relative;
+  	transition: all .45s ease-Out;
+}
+
+#translate {
+  	transform: rotate(50deg);
+  	width: 100%;
+  	height: 250%;
+  	left: -200px;
+  	top: -30px;
+  	background:#6B9AC5;
+  	position: absolute;
+  	transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  	left: 0;
+}
+
+#button-5:hover a {
+  	color: #2D3142;
+}
+.f_div_button{
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
+}
+.button_div {
+	padding-top:20px;
+}
+#arrow-cont{
+	max-width: 50px;
+	
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+@keyframes arrowmove{
+	from{
+		top:0px;
+	}
+	to{
+		top:10px;
+	}
+}
+
+/*CSS for 2nd div*/
+.second_desc_title{
+	font-family: 'Staatliches', cursive;
+	text-align:center;
+}
+/*CSS for 3rd div*/
+#third_desc p{
+	
+	font-family: 'Staatliches', cursive;
+	
+	text-align:left;
+	background: -webkit-linear-gradient(#373b44, #4286f4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	opacity:100%;
+	z-index:2;
+}
+/*CSS for 4th div*/
+#container_4{
+	padding-top:50px;
+}
+.con4_p{
+	font-family: 'Staatliches', cursive;
+	font-size:50px;
+	padding-left:50px;
+}
+#progress_con{
+	justify-content: center;
+  	align-items: center;
+  	display: flex;
+  	padding: 0;
+  	margin: 0;
+}
+.progress {
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #0481E7;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
