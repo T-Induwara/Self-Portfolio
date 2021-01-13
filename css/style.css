@@ -43,6 +43,13 @@
 		padding-right:10px;
 		font-size:20px;
 	}
+	/*CSS for fourth Div*/
+	.con4_p{
+		font-size:30px;
+	}
+	.progress{
+		width:300px;
+	}
 }
 @media only screen and (min-width:400px){
 	body{
@@ -82,6 +89,13 @@
 		padding-left:10px;
 		padding-right:10px;
 		font-size:20px;
+	}
+	/*CSS for fourth Div*/
+	.con4_p{
+		font-size:30px;
+	}
+	.progress{
+		width:300px;
 	}
 }
 /* @media only screen and (min-width: 600px){
@@ -136,6 +150,15 @@
 		padding-right:50px;
 		font-size:25px;
 	}
+	/*CSS for fourth Div*/
+	.con4_p{
+		font-size:50px;
+		padding-left:50px;
+	}
+	.progress{
+		width:300px;
+		margin-right:50px;
+	}
 }
 @media only screen and (min-width: 1024px){
 	body{
@@ -175,6 +198,15 @@
 		padding-right:50px;
 		font-size:30px;
 	}
+	/*CSS for fourth Div*/
+	.con4_p{
+		font-size:50px;
+		padding-left:50px;
+	}
+	.progress{
+		width:400px;
+		margin-right:50px;
+	}
 }
 @media only screen and (min-width: 1400px){
 	body{
@@ -209,6 +241,15 @@
 	/*CSS for second Div*/
 	.second_desc_title{
 		font-size:35px;
+	}
+	/*CSS for fourth Div*/
+	.con4_p{
+		font-size:50px;
+		padding-left:50px;
+	}
+	.progress{
+		width:500px;
+		padding-right:50px;
 	}
 }
 @supports (background: paint(something)) {
@@ -429,8 +470,7 @@ body{
 }
 .con4_p{
 	font-family: 'Staatliches', cursive;
-	font-size:50px;
-	padding-left:50px;
+	text-align: center;
 }
 #progress_con{
 	justify-content: center;
@@ -447,10 +487,17 @@ body{
   padding: 0 5px;
   display: flex;
   height: 40px;
-  width: 500px;
 }
 
 .progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #E07C0D;
+  height: 30px;
+  width: 0;
+}
+.progress-value1 {
   animation: load 3s normal forwards;
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
