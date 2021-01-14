@@ -43,6 +43,10 @@
 		padding-right:10px;
 		font-size:20px;
 	}
+	#third_desc h1{
+		font-size:200px;
+		margin-top:-350px;
+	}
 	/*CSS for fourth Div*/
 	.con4_p{
 		font-size:30px;
@@ -89,6 +93,10 @@
 		padding-left:10px;
 		padding-right:10px;
 		font-size:20px;
+	}
+	#third_desc h1{
+		font-size:200px;
+		margin-top:-350px;
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
@@ -150,6 +158,10 @@
 		padding-right:50px;
 		font-size:25px;
 	}
+	#third_desc h1{
+		font-size:290px;
+		margin-top:-350px;
+	}
 	/*CSS for fourth Div*/
 	.con4_p{
 		font-size:50px;
@@ -198,6 +210,10 @@
 		padding-right:50px;
 		font-size:30px;
 	}
+	#third_desc h1{
+		font-size:290px;
+		margin-top:-350px;
+	}
 	/*CSS for fourth Div*/
 	.con4_p{
 		font-size:50px;
@@ -241,6 +257,11 @@
 	/*CSS for second Div*/
 	.second_desc_title{
 		font-size:35px;
+	}
+	/*CSS for third Div*/
+	#third_desc h1{
+		font-size:290px;
+		margin-top:-350px;
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
@@ -464,9 +485,17 @@ body{
 	opacity:100%;
 	z-index:2;
 }
+#third_desc h1{
+	font-family: 'Archivo Black', sans-serif;
+	text-shadow: 2px 2px 50px #000000;
+	text-align:center;
+	color: white;
+	opacity:10%;
+	z-index:1;
+}
 /*CSS for 4th div*/
 #container_4{
-	padding-top:50px;
+	padding-top:100px;
 }
 .con4_p{
 	font-family: 'Staatliches', cursive;
@@ -490,15 +519,21 @@ body{
 }
 
 .progress-value {
-  animation: load 3s normal forwards;
+  animation: html 3s normal forwards;
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #E07C0D;
   height: 30px;
   width: 0;
 }
+
+@keyframes html {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+			/*CSS for "css progress bar"*/
 .progress-value1 {
-  animation: load 3s normal forwards;
+  animation: css 3s normal forwards;
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #0481E7;
@@ -506,7 +541,63 @@ body{
   width: 0;
 }
 
-@keyframes load {
+@keyframes css {
   0% { width: 0; }
-  100% { width: 90%; }
+  100% { width: 75%; }
+}
+			/*CSS for "js progress bar"*/
+.progress-value2 {
+  animation: js 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #E7C517;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes js {
+  0% { width: 0; }
+  100% { width: 55%; }
+}
+			/*CSS for "php progress bar"*/
+.progress-value3 {
+  animation: php 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #8993be;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes php {
+  0% { width: 0; }
+  100% { width: 15%; }
+}
+			/*CSS for "bootstrap progress bar"*/
+.progress-value4 {
+  animation: bs 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #563d7c;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes bs {
+  0% { width: 0; }
+  100% { width: 78%; }
+}
+			/*CSS for "bootstrap progress bar"*/
+.progress-value5 {
+  animation: wp 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #969595;
+  border-radius: 100px;
+  background: #21759b;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes wp {
+  0% { width: 0; }
+  100% { width: 94%; }
 }
