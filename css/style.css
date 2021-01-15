@@ -272,6 +272,13 @@
 		width:500px;
 		padding-right:50px;
 	}
+	#project_con h2{
+		font-size:100px;
+	}
+	#project_con h1{
+		font-size:290px;
+		margin-top:-330px;
+	}
 }
 @supports (background: paint(something)) {
   #name_h3 {
@@ -600,4 +607,25 @@ body{
 @keyframes wp {
   0% { width: 0; }
   100% { width: 94%; }
+}
+/*CSS for 5th div*/
+#project_con{
+	padding-top:250px;
+}
+#project_con h2{
+	font-family: 'Staatliches', cursive;
+	text-align:left;
+	background: -webkit-linear-gradient(#373b44, #4286f4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	opacity:100%;
+	z-index:2;
+}
+#project_con h1{
+	font-family: 'Archivo Black', sans-serif;
+	text-shadow: 2px 2px 50px #000000;
+	text-align:center;
+	color: white;
+	opacity:10%;
+	z-index:1;
 }
