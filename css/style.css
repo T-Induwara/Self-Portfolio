@@ -49,7 +49,7 @@
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
-		font-size:30px;
+		font-size:20px;
 	}
 	.progress{
 		width:300px;
@@ -100,7 +100,7 @@
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
-		font-size:30px;
+		font-size:20px;
 	}
 	.progress{
 		width:300px;
@@ -164,7 +164,7 @@
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
-		font-size:50px;
+		font-size:25px;
 		padding-left:50px;
 	}
 	.progress{
@@ -216,7 +216,7 @@
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
-		font-size:50px;
+		font-size:30px;
 		padding-left:50px;
 	}
 	.progress{
@@ -265,7 +265,7 @@
 	}
 	/*CSS for fourth Div*/
 	.con4_p{
-		font-size:50px;
+		font-size:30px;
 		padding-left:50px;
 	}
 	.progress{
@@ -495,7 +495,7 @@ body{
 }
 /*CSS for 4th div*/
 #container_4{
-	padding-top:100px;
+	padding-top:200px;
 }
 .con4_p{
 	font-family: 'Staatliches', cursive;
@@ -515,7 +515,7 @@ body{
   position: relative;
   padding: 0 5px;
   display: flex;
-  height: 40px;
+  height: 25px;
 }
 
 .progress-value {
@@ -523,7 +523,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #E07C0D;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
@@ -537,7 +537,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #0481E7;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
@@ -551,7 +551,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #E7C517;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
@@ -565,7 +565,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #8993be;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
@@ -579,7 +579,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #563d7c;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
@@ -593,7 +593,7 @@ body{
   box-shadow: 0 10px 40px -10px #969595;
   border-radius: 100px;
   background: #21759b;
-  height: 30px;
+  height: 20px;
   width: 0;
 }
 
