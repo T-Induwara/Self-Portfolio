@@ -155,6 +155,24 @@
 		filter:grayscale(0%);
 		transition:0.8s;
 	}
+	/*CSS for 7th div*/
+	.mail-ico{
+		padding-left:130px;
+		margin-top:-15px;
+	}
+	.github-ico{
+		padding-top:40px;
+		padding-left:150px;
+	}
+	.freelance-ico{
+		padding-top:40px;
+		padding-left:150px;
+	}
+	.linkedin-ico{
+		padding-top:20px;
+		padding-left:130px;
+		margin-top:-30px;
+	}
 }
 @media only screen and (min-width:400px){
 	body{
@@ -305,6 +323,24 @@
 		box-shadow: 4px 4px 4px 4px #b7b8b6;
 		filter:grayscale(0%);
 		transition:0.8s;
+	}
+	/*CSS for 7th div*/
+	.mail-ico{
+		padding-left:130px;
+		margin-top:-15px;
+	}
+	.github-ico{
+		padding-top:40px;
+		padding-left:150px;
+	}
+	.freelance-ico{
+		padding-top:40px;
+		padding-left:150px;
+	}
+	.linkedin-ico{
+		padding-top:20px;
+		padding-left:130px;
+		margin-top:-30px;
 	}
 }
 /* @media only screen and (min-width: 600px){
@@ -475,6 +511,21 @@
 		filter:grayscale(0%);
 		transition:0.8s;
 	}
+	/*CSS for 7th div*/
+	.mail-ico{
+		padding-left:50px;
+		margin-top:-15px;
+	}
+	.github-ico{
+		padding-left:100px;
+	}
+	.freelance-ico{
+		padding-left:100px;
+	}
+	.linkedin-ico{
+		padding-left:60px;
+		margin-top:-30px;
+	}
 }
 @media only screen and (min-width: 1024px){
 	body{
@@ -630,6 +681,21 @@
 		filter:grayscale(0%);
 		transition:0.8s;
 	}
+	/*CSS for 7th div*/
+	.mail-ico{
+		padding-left:50px;
+		margin-top:-15px;
+	}
+	.github-ico{
+		padding-left:100px;
+	}
+	.freelance-ico{
+		padding-left:100px;
+	}
+	.linkedin-ico{
+		padding-left:60px;
+		margin-top:-30px;
+	}
 }
 @media only screen and (min-width: 1400px){
 	body{
@@ -782,6 +848,21 @@
 		filter:grayscale(0%);
 		transition:0.8s;
 	}
+	/*CSS for 7th div*/
+	.mail-ico{
+		padding-left:50px;
+		margin-top:-15px;
+	}
+	.github-ico{
+		padding-left:100px;
+	}
+	.freelance-ico{
+		padding-left:100px;
+	}
+	.linkedin-ico{
+		padding-left:60px;
+		margin-top:-30px;
+	}
 	
 }
 @supports (background: paint(something)) {
@@ -833,7 +914,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	z-index:1;
-	transition:.7s;
+	transition:0.7s;
 	transform:translateY(150px);
 }
 .container .card:hover .slide.slide1{
@@ -846,7 +927,7 @@ body{
 	align-content: center;
 	padding:20px;
 	box-sizing:border-box;
-	transition:.8s;
+	transition:0.8s;
 	transform:translateY(-100px);
 	box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
@@ -1139,7 +1220,7 @@ body{
 	padding-bottom:100px;
 }
 #row-pro{
-	padding-top:20px;
+	padding-top:200px;
 	padding-bottom:200px;
 }
 
