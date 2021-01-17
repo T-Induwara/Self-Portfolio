@@ -54,6 +54,14 @@
 	.progress{
 		width:300px;
 	}
+	/*CSS for fifth Div*/
+	#project_con h2{
+		font-size:40px;
+	}
+	#project_con h1{
+		font-size:80px;
+		margin-top:-105px;
+	}
 }
 @media only screen and (min-width:400px){
 	body{
@@ -104,6 +112,14 @@
 	}
 	.progress{
 		width:300px;
+	}
+	/*CSS for fifth Div*/
+	#project_con h2{
+		font-size:50px;
+	}
+	#project_con h1{
+		font-size:87px;
+		margin-top:-120px;
 	}
 }
 /* @media only screen and (min-width: 600px){
@@ -171,6 +187,62 @@
 		width:300px;
 		margin-right:50px;
 	}
+	/*CSS for fifth Div*/
+	#project_con h2{
+		font-size:45px;
+	}
+	#project_con h1{
+		font-size:130px;
+		margin-top:-150px;
+	}
+	/*CSS for 6th div*/
+	.round-num-1{
+		width: 0;
+    	height: 0;
+    	border-top: 180px solid white;
+    	border-right: 100px solid transparent;
+		filter: drop-shadow(0px 6px 5px #8F8E8E);
+		margin-top:-50px;
+		margin-left:50px;
+	
+	}
+	.round-num-1 h2{
+		font-family: 'Staatliches', cursive;
+		color:#5367DC;
+		text-align:center;
+		font-size:230px;
+		margin-top:-240px;
+		margin-left:30px;
+	}
+	.max_pro{
+		padding-top:50px;
+	}
+	.max_pro h2{
+		position:absolute;
+		font-family: 'Staatliches', cursive;
+		font-size:50px;
+		background-color:#8F8E8E;
+		color:white;
+		margin-top:-80px;
+		margin-left:-100px;
+		z-index:2;
+	}
+	.max_pro img{
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
+		width:300px;
+		filter:grayscale(100%);
+		transition:0.8s;
+		margin-top:-100px;
+		z-index:1;
+	}
+	.max_pro img:hover{
+		width:520px;
+		box-shadow: 4px 4px 4px 4px #b7b8b6;
+		filter:grayscale(0%);
+		transition:0.8s;
+	}
 }
 @media only screen and (min-width: 1024px){
 	body{
@@ -223,6 +295,62 @@
 		width:400px;
 		margin-right:50px;
 	}
+	/*CSS for fifth Div*/
+	#project_con h2{
+		font-size:65px;
+	}
+	#project_con h1{
+		font-size:190px;
+		margin-top:-210px;
+	}
+	/*CSS for 6th div*/
+	.round-num-1{
+		width: 0;
+    	height: 0;
+    	border-top: 240px solid white;
+    	border-right: 100px solid transparent;
+		filter: drop-shadow(0px 6px 5px #8F8E8E);
+		margin-top:-50px;
+		margin-left:100px;
+	
+	}
+	.round-num-1 h2{
+		font-family: 'Staatliches', cursive;
+		color:#5367DC;
+		text-align:center;
+		font-size:250px;
+		margin-top:-260px;
+		margin-left:30px;
+	}
+	.max_pro{
+		padding-top:50px;
+	}
+	.max_pro h2{
+		position:absolute;
+		font-family: 'Staatliches', cursive;
+		font-size:60px;
+		background-color:#8F8E8E;
+		color:white;
+		margin-top:-80px;
+		margin-left:-100px;
+		z-index:2;
+	}
+	.max_pro img{
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
+		width:400px;
+		filter:grayscale(100%);
+		transition:0.8s;
+		margin-top:-100px;
+		z-index:1;
+	}
+	.max_pro img:hover{
+		width:520px;
+		box-shadow: 4px 4px 4px 4px #b7b8b6;
+		filter:grayscale(0%);
+		transition:0.8s;
+	}
 }
 @media only screen and (min-width: 1400px){
 	body{
@@ -272,6 +400,7 @@
 		width:500px;
 		padding-right:50px;
 	}
+	/*CSS for fifth Div*/
 	#project_con h2{
 		font-size:100px;
 	}
@@ -279,6 +408,55 @@
 		font-size:290px;
 		margin-top:-330px;
 	}
+	/*CSS for 6th div*/
+	.round-num-1{
+		width: 0;
+    	height: 0;
+    	border-top: 300px solid white;
+    	border-right: 200px solid transparent;
+		filter: drop-shadow(0px 6px 5px #8F8E8E);
+		margin-top:-50px;
+		margin-left:100px;
+	
+	}
+	.round-num-1 h2{
+		font-family: 'Staatliches', cursive;
+		color:#5367DC;
+		text-align:center;
+		font-size:300px;
+		margin-top:-300px;
+		margin-left:30px;
+	}
+	.max_pro{
+		padding-top:50px;
+	}
+	.max_pro h2{
+		position:absolute;
+		font-family: 'Staatliches', cursive;
+		font-size:80px;
+		background-color:#8F8E8E;
+		color:white;
+		margin-top:-80px;
+		margin-left:-100px;
+		z-index:2;
+	}
+	.max_pro img{
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
+		width:500px;
+		filter:grayscale(100%);
+		transition:0.8s;
+		margin-top:-100px;
+		z-index:1;
+	}
+	.max_pro img:hover{
+		width:520px;
+		box-shadow: 4px 4px 4px 4px #b7b8b6;
+		filter:grayscale(0%);
+		transition:0.8s;
+	}
+	
 }
 @supports (background: paint(something)) {
   #name_h3 {
@@ -614,7 +792,7 @@ body{
 }
 #project_con h2{
 	font-family: 'Staatliches', cursive;
-	text-align:left;
+	text-align:center;
 	background: -webkit-linear-gradient(#373b44, #4286f4);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
@@ -629,3 +807,9 @@ body{
 	opacity:10%;
 	z-index:1;
 }
+/*CSS for 6th div*/
+#container_6{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
