@@ -851,7 +851,7 @@
 	/*CSS for 7th div*/
 	.mail-ico{
 		padding-left:50px;
-		margin-top:10px;
+		margin-top:-25px;
 	}
 	.github-ico{
 		padding-left:100px;
@@ -887,6 +887,7 @@ body{
 	align-items:center;
 	justify-content: center;
 	font-family: sans-serif;
+	background-image: url("/img/BG1-min.jpg");
 }
 .container .card .icon{
 	position: absolute;
@@ -971,7 +972,7 @@ body{
 }
 .who h1{
 	font-family: 'Archivo Black', sans-serif;
-	text-shadow: 2px 2px 50px #000000;
+	text-shadow: 0px 2px 50px #000000;
 	text-align:center;
 	color: white;
 	opacity:10%;
@@ -1079,7 +1080,7 @@ body{
 }
 #third_desc h1{
 	font-family: 'Archivo Black', sans-serif;
-	text-shadow: 2px 2px 50px #000000;
+	text-shadow: 0px 2px 50px #000000;
 	text-align:center;
 	color: white;
 	opacity:10%;
@@ -1208,7 +1209,7 @@ body{
 }
 #project_con h1{
 	font-family: 'Archivo Black', sans-serif;
-	text-shadow: 2px 2px 50px #000000;
+	text-shadow: 0px 2px 50px #000000;
 	text-align:center;
 	color: white;
 	opacity:10%;
