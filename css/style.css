@@ -157,11 +157,11 @@
 	}
 	/*CSS for 7th div*/
 	.mail-ico{
-		margin-left:80px;
+		padding-left:80px;
 		margin-top:15px;
 	}
 	.github-ico{
-		padding-top:40px;
+		padding-top:0px;
 		padding-left:150px;
 	}
 	.freelance-ico{
@@ -330,7 +330,7 @@
 		margin-top:0px;
 	}
 	.github-ico{
-		padding-top:40px;
+		padding-top:0px;
 		padding-left:150px;
 	}
 	.freelance-ico{
@@ -513,11 +513,12 @@
 	}
 	/*CSS for 7th div*/
 	.mail-ico{
-		padding-left:10px;
+		margin-left:-90px;
 		margin-top:-25px;
 	}
 	.github-ico{
-		padding-left:100px;
+		padding-top:40px;
+		padding-left:80px;
 	}
 	.freelance-ico{
 		padding-left:100px;
@@ -683,10 +684,10 @@
 	}
 	/*CSS for 7th div*/
 	.mail-ico{
-		padding-left:50px;
 		margin-top:-25px;
 	}
 	.github-ico{
+		padding-top:40px;
 		padding-left:100px;
 	}
 	.freelance-ico{
@@ -850,11 +851,12 @@
 	}
 	/*CSS for 7th div*/
 	.mail-ico{
-		padding-left:50px;
+		padding-left:0px;
 		margin-top:-25px;
 	}
 	.github-ico{
-		padding-left:100px;
+		padding-top:40px;
+		padding-left:120px;
 	}
 	.freelance-ico{
 		padding-left:100px;
@@ -887,7 +889,7 @@ body{
 	align-items:center;
 	justify-content: center;
 	font-family: sans-serif;
-	background-image: url("/img/BG1-min.jpg");
+	background-image: url(../img/BG1-min.jpg);
 }
 .container .card .icon{
 	position: absolute;

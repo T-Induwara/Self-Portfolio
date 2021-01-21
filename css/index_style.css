@@ -68,6 +68,9 @@
 		margin-top:7px;
 	}
 }
+body{
+	background:url(../img/BG1-min.jpg);
+}
 #lottie-con{
 	z-index: 1;
 }
